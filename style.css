@@ -513,10 +513,6 @@ section {
     transition: 0.2s all;
 }
 
-.btn:hover {
-    background-color: #ff8f00;
-}
-
 .heading {
     color: #fff;
     display: flex;
@@ -761,7 +757,7 @@ section {
     letter-spacing: .01em;
     line-height: 1.1;
     text-transform: uppercase;
-    color: #333333;
+    color: var(--bg);
 }
 
 .mid-flex {
@@ -1028,6 +1024,7 @@ input::placeholder {
     font-size: 2rem;
     letter-spacing: 0.4rem;
     border: none;
+    color: var(--bg);
     display: inline;
     outline: none;
     width: 100%;
