@@ -42,6 +42,9 @@
     .icon-btn {
         padding: 1.1rem 1rem;
     }
+    .slideshow-element {
+        width: 100%;
+    }
 }
 
 
@@ -162,9 +165,28 @@
     .link-privacy ul {
         margin-bottom : 2rem;
     }
-    
+    .slideshow-element {
+        width: 100%;
+    }
+    .about .content h3 {
+        font-size: 3rem;
+    }
+    .about .content p {
+        font-size: 1.7rem;
+    }
+    .slide-content h5 {
+        font-size: 22px;
+    }
 
-    
+    .history-title p {
+        font-size: 1.7rem;
+        line-height: 42px;
+    }
+    .history-title h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+  
 }
 
 @media only screen and (max-width : 670px) {
@@ -173,6 +195,9 @@
     }
     .footer-grid {
         grid-template-columns: auto auto;
+    }
+    .slideshow-element {
+        width: 100%;
     }
 }
 

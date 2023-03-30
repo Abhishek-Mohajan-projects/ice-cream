@@ -213,7 +213,7 @@ body {
 .slideshow-elements h2 {
     color: #fff;
     font-size: 3rem;
-    padding-top: 10rem;
+    padding-top: 3.8rem;
 }
 
 .slideshow-element {
@@ -221,6 +221,7 @@ body {
     position: absolute;
     transform: translate(-50%, -50%) scale(0);
     transition : 0.5s;
+    width: 65%;
 }
 
 .slideshow-element.current {
