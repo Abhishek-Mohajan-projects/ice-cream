@@ -199,6 +199,12 @@
     .slideshow-element {
         width: 100%;
     }
+    .footer-grid .footer-element .shop-list .list-tag li::before {
+        font-size: 1.4rem;
+    }
+    .footer-grid .footer-element .shop-list .list-tag li a {
+        font-size: 1.2rem;
+    }
 }
 
 
